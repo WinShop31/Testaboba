@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1a0033, #660066);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #00ffcc;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.dots {
+    font-size: 2em;
+    margin-top: 10px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
